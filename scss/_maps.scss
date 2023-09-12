@@ -7,10 +7,48 @@
 .map-right {
     margin-left: 30%;
 }
+@media (max-width: 768px){
+    .map-right {
+        width: 150px;
+        height: 120px;
+        margin-right: 3%;
+    }
+}
+@media (min-width: 769px){
+    .map-right {
+        width: 250px;
+        height: 230px;
+    }
+}
+@media (min-width: 1000px){
+    .map-right {
+        width: 450px;
+        height: 350px;
+    }
+}
 .map-left {
-    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+@media (max-width: 768px){
+    .map-left {
+        width: 150px;
+        height: 120px;
+        margin-left: 3%;
+    }
+}
+@media (min-width: 769px){
+    .map-left {
+        width: 250px;
+        height: 230px;
+    }
+}
+@media (min-width: 1000px){
+    .map-left {
+        width: 450px;
+        height: 350px;
+    }
 }
 .bg-maps {
     border-radius: 3%;

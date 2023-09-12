@@ -18,29 +18,14 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.imgSNL {
-    border: #333 solid 5px;
-    border-radius: 40px;
-}
-.imgSND {
-    border: #333 solid 5px;
-    border-radius: 40px;
-}
-.bordeImagenes {
-    border-radius: 8%;
-    width: 35%;
-    height: 35%;
-}
-.textContL {
-    font-size: 125%;
-    padding: 5%;
-}
-.textContD {
-    font-size: 125%;
-    padding: 5%;
+@media (max-width: 768px) {
+    .contenedor {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
 }
 //HTML PRODUCTOS
 .botonProd {
@@ -53,9 +38,6 @@ body {
     background-color: rgb(255, 228, 196);
     margin: 0%;
     padding: 5%;
-}
-.textosContacto {
-    margin-top: 12%;
 }
 .formMarg {
     padding: 10%;

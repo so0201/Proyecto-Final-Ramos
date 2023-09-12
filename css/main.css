@@ -20,36 +20,16 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 2%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-.imgSNL {
-  border: #333 solid 5px;
-  border-radius: 40px;
+@media (max-width: 768px) {
+  .contenedor {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
-
-.imgSND {
-  border: #333 solid 5px;
-  border-radius: 40px;
-}
-
-.bordeImagenes {
-  border-radius: 8%;
-  width: 35%;
-  height: 35%;
-}
-
-.textContL {
-  font-size: 125%;
-  padding: 5%;
-}
-
-.textContD {
-  font-size: 125%;
-  padding: 5%;
-}
-
 .botonProd {
   color: #ffffff;
   background-color: #333;
@@ -60,10 +40,6 @@ body {
   background-color: rgb(255, 228, 196);
   margin: 0%;
   padding: 5%;
-}
-
-.textosContacto {
-  margin-top: 12%;
 }
 
 .formMarg {
@@ -157,12 +133,50 @@ header {
   margin-left: 30%;
 }
 
+@media (max-width: 768px) {
+  .map-right {
+    width: 150px;
+    height: 120px;
+    margin-right: 3%;
+  }
+}
+@media (min-width: 769px) {
+  .map-right {
+    width: 250px;
+    height: 230px;
+  }
+}
+@media (min-width: 1000px) {
+  .map-right {
+    width: 450px;
+    height: 350px;
+  }
+}
 .map-left {
-  margin-left: 15%;
+  margin-right: 15%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
+@media (max-width: 768px) {
+  .map-left {
+    width: 150px;
+    height: 120px;
+    margin-left: 3%;
+  }
+}
+@media (min-width: 769px) {
+  .map-left {
+    width: 250px;
+    height: 230px;
+  }
+}
+@media (min-width: 1000px) {
+  .map-left {
+    width: 450px;
+    height: 350px;
+  }
+}
 .bg-maps {
   border-radius: 3%;
   background-color: rgb(255, 228, 196);
@@ -196,6 +210,11 @@ header {
   font-size: 7dvh;
 }
 
+@media (max-width: 768px) {
+  .h2Main {
+    font-size: 30px;
+  }
+}
 .pMain {
   margin-bottom: 1%;
   margin-left: 5%;
@@ -203,6 +222,11 @@ header {
   font-size: 3dvh;
 }
 
+@media (max-width: 768px) {
+  .pMain {
+    font-size: 18px;
+  }
+}
 .botonMain {
   margin-left: 5%;
   margin-bottom: 7%;
@@ -213,9 +237,18 @@ header {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  font-size: 150%;
 }
 
+@media (max-width: 768px) {
+  .botonMain {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .botonMain {
+    font-size: 22px;
+  }
+}
 .botonMain:hover {
   background-color: rgb(106, 186, 255);
   border-color: #333;
@@ -232,6 +265,11 @@ header {
   font-size: 7dvh;
 }
 
+@media (max-width: 768px) {
+  .h2DivQuienes {
+    font-size: 30px;
+  }
+}
 .pDiv {
   margin-bottom: 2%;
   margin-left: 5%;
@@ -240,16 +278,131 @@ header {
   font-size: 3dvh;
 }
 
+@media (max-width: 768px) {
+  .pDiv {
+    font-size: 18px;
+  }
+}
 .pQuienesSomos {
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 2%;
-  font-size: 120%;
+  margin-bottom: 3%;
+  padding: 3%;
 }
 
+@media (max-width: 768px) {
+  .pQuienesSomos {
+    font-size: 15px;
+  }
+}
 .fondoTextos {
   background-color: rgba(255, 228, 196, 0.562);
   border-radius: 5%;
+}
+
+.textContL {
+  font-size: 125%;
+  padding: 5%;
+  color: rgb(207, 0, 0);
+}
+
+@media (max-width: 768px) {
+  .textContL {
+    font-size: 15px;
+  }
+}
+.textContD {
+  font-size: 125%;
+  padding: 5%;
+  color: rgb(207, 0, 0);
+}
+
+@media (max-width: 768px) {
+  .textContD {
+    font-size: 15px;
+  }
+}
+.imgSNLL {
+  border: #333 solid 5px;
+  border-radius: 40px;
+  padding: 3%;
+  background-image: url(../img/cafeteria-blur.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.imgSND {
+  border: #333 solid 5px;
+  border-radius: 40px;
+  padding: 3%;
+  background-image: url(../img/cafe-maquinasSND.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.imgSNL {
+  border: #333 solid 5px;
+  border-radius: 40px;
+  padding: 3%;
+  background-image: url(../img/Cafe-tiendaBlur.jpg);
+  background-size: cover;
+  background-position: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.textosContacto {
+  margin-top: 12%;
+}
+
+.textUbiL {
+  font-size: 23px;
+}
+
+@media (max-width: 550px) {
+  .textUbiL {
+    font-size: 11px;
+  }
+}
+@media (min-width: 768px) {
+  .textUbiL {
+    font-size: 10px;
+  }
+}
+@media (min-width: 769px) {
+  .textUbiL {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .textUbiL {
+    font-size: 26px;
+  }
+}
+.textUbiD {
+  font-size: 23px;
+}
+
+@media (max-width: 550px) {
+  .textUbiD {
+    font-size: 11px;
+  }
+}
+@media (min-width: 768px) {
+  .textUbiD {
+    font-size: 10px;
+  }
+}
+@media (min-width: 769px) {
+  .textUbiD {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .textUbiD {
+    font-size: 26px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
