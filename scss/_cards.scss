@@ -2,8 +2,6 @@
     background-color: rgb(255, 228, 196);
 }
 .h2Titulo {
-    text-align: center;
-    padding-left: 5%;
     padding-top: 10%;
     padding-bottom: 1%;
     font-size: 3dvh;
@@ -15,4 +13,18 @@
     max-width: 30%;
     align-items: center;
     margin-left: 7%;
+}
+.ProductosCard {
+    justify-content: center;
+    border: #333 solid 3px;
+    border-radius: 3%;
+    margin-bottom: 2%;
+    padding: 3%;
+    background-color: bisque;
+}
+.ProductosCard img {
+    border-radius: 15px;
+}
+.ProductosCard h5 {
+    margin-top: 3%;
 }

@@ -15,13 +15,68 @@ body {
   width: 100%;
 }
 
+.contenedor {
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.imgSNL {
+  border: #333 solid 5px;
+  border-radius: 40px;
+}
+
+.imgSND {
+  border: #333 solid 5px;
+  border-radius: 40px;
+}
+
+.bordeImagenes {
+  border-radius: 8%;
+  width: 35%;
+  height: 35%;
+}
+
+.textContL {
+  font-size: 125%;
+  padding: 5%;
+}
+
+.textContD {
+  font-size: 125%;
+  padding: 5%;
+}
+
+.botonProd {
+  color: #ffffff;
+  background-color: #333;
+  border: #333;
+}
+
+.divContacto {
+  background-color: rgb(255, 228, 196);
+  margin: 0%;
+  padding: 5%;
+}
+
+.textosContacto {
+  margin-top: 12%;
+}
+
+.formMarg {
+  padding: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
 .h2Servicios {
   background-color: rgb(255, 228, 196);
 }
 
 .h2Titulo {
-  text-align: center;
-  padding-left: 5%;
   padding-top: 10%;
   padding-bottom: 1%;
   font-size: 3dvh;
@@ -35,6 +90,23 @@ body {
   max-width: 30%;
   align-items: center;
   margin-left: 7%;
+}
+
+.ProductosCard {
+  justify-content: center;
+  border: #333 solid 3px;
+  border-radius: 3%;
+  margin-bottom: 2%;
+  padding: 3%;
+  background-color: bisque;
+}
+
+.ProductosCard img {
+  border-radius: 15px;
+}
+
+.ProductosCard h5 {
+  margin-top: 3%;
 }
 
 .divFooter {
@@ -54,11 +126,65 @@ header {
   color: rgb(0, 0, 0);
 }
 
+@media (max-width: 480px) {
+  .headTitle {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) {
+  .headTitle {
+    font-size: 45px;
+  }
+}
+@media (min-width: 769px) {
+  .headTitle {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  .headTitle {
+    font-size: 65px;
+  }
+}
+.pLocales {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  font-size: 120%;
+}
+
+.map-right {
+  margin-left: 30%;
+}
+
+.map-left {
+  margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.bg-maps {
+  border-radius: 3%;
+  background-color: rgb(255, 228, 196);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 .navbar {
   background-color: rgb(255, 242, 225);
   text-align: justify;
 }
 
+@media (max-width: 768px) {
+  .logoNav {
+    width: 11vw;
+  }
+}
+@media (min-width: 768px) {
+  .logoNav {
+    width: 90px;
+  }
+}
 .Textos {
   background-color: rgb(255, 228, 196);
 }
@@ -112,6 +238,18 @@ header {
   padding-top: 1%;
   padding-bottom: 1%;
   font-size: 3dvh;
+}
+
+.pQuienesSomos {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  font-size: 120%;
+}
+
+.fondoTextos {
+  background-color: rgba(255, 228, 196, 0.562);
+  border-radius: 5%;
 }
 
 /*# sourceMappingURL=main.css.map */
