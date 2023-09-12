@@ -1,107 +1,17 @@
-body {
-    margin: 0%;
-    padding: 0%;
-    background-color: rgb(255, 242, 225);
-    align-items: center;
-}
-header {
-    background-color: rgb(255, 242, 225);
-    color: black;
-}
-footer {
-    border-top: #333 solid 10px;
-    border-top-left-radius: 3%;
-    border-top-right-radius: 3%;
-}
+
 /* NAVBAR */
-.navbar {
-    background-color: rgb(255, 242, 225);
-    text-align: justify;
-}
+
 /* PRIMEROS TEXTOS Y TITULOS */
-.Textos {
-    background-color: rgb(255, 228, 196);
-}
-.h2Main {
-    margin-top: 7%;
-    margin-left: 5%;
-    padding: 0%;
-    font-size: 7dvh;
-}
-.pMain {
-    margin-bottom: 1%;
-    margin-left: 5%;
-    padding-top: 1%;
-    font-size: 3dvh;
-}
-.botonMain{
-    margin-left: 5%;
-    margin-bottom: 7%;
-    color: rgb(0, 0, 0);
-    background-color: transparent;
-    cursor: pointer;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    font-size: 150%;
-}
-.botonMain:hover {
-    background-color: rgb(106, 186, 255);
-    border-color: #333;
-}
+
 /* CARRUSEL DE IMAGENES */
-.imagenCafe {
-    margin-left: 1%;
-    margin-right: 5%;
-    padding: 0%;
-}
+
 /* ROW */
-.row {
-    width: 100%;
-}
+
 /* TEXTOS ACERCA DE QUIENES SOMOS */
-.divQuienesSomos {
-    background-color: rgb(255, 228, 196);
-}
-.h2DivQuienes {
-    margin-top: 7%;
-    margin-left: 5%;
-    padding: 0%;
-    font-size: 7dvh;
-}
-.pDiv {
-    margin-bottom: 2%;
-    margin-left: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 3dvh;
-}
+
 /* CARTAS DE SERVICIOS */
-.h2Servicios {
-    background-color: rgb(255, 228, 196);
-}
-.h2Titulo {
-    text-align: center;
-    padding-left: 5%;
-    padding-top: 10%;
-    padding-bottom: 1%;
-    font-size: 3dvh;
-}
-.card-body {
-    background-color: rgb(255, 228, 196);
-}
-.card {
-    max-width: 30%;
-    align-items: center;
-    margin-left: 7%;
-}
+
 /* FOOTER */
-.divFooter {
-    text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
-}
 
 /* SOBRE NOSOTROS HTML */
 

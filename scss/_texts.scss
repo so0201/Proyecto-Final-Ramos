@@ -1,0 +1,47 @@
+.Textos {
+    background-color: rgb(255, 228, 196);
+}
+.h2Main {
+    margin-top: 7%;
+    margin-left: 5%;
+    padding: 0%;
+    font-size: 7dvh;
+}
+.pMain {
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding-top: 1%;
+    font-size: 3dvh;
+}
+.botonMain{
+    margin-left: 5%;
+    margin-bottom: 7%;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 150%;
+}
+.botonMain:hover {
+    background-color: rgb(106, 186, 255);
+    border-color: #333;
+}
+.divQuienesSomos {
+    background-color: rgb(255, 228, 196);
+}
+.h2DivQuienes {
+    margin-top: 7%;
+    margin-left: 5%;
+    padding: 0%;
+    font-size: 7dvh;
+}
+.pDiv {
+    margin-bottom: 2%;
+    margin-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 3dvh;
+}
