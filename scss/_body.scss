@@ -1,3 +1,12 @@
+@mixin fondo-y-borde {
+    background-color: $secondaryColor;
+    border: $bg-color3 solid 5px;
+    border-radius: 40px;
+    padding: 3%;
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }  
 body {
     margin: 0%;
     padding: 0%;
@@ -278,33 +287,18 @@ body {
 }
 
 .imgSNLL {
-    border: $bg-color3 solid 5px;
-    border-radius: 40px;
-    padding: 3%;
+    @include fondo-y-borde;
     background-image: url(../img/cafeteria-blur.jpg);
-    background-size: cover;
-    background-position: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .imgSND {
-    border: $bg-color3 solid 5px;
-    border-radius: 40px;
-    padding: 3%;
+    @include fondo-y-borde;
     background-image: url(../img/cafe-maquinasSND.jpg);
-    background-size: cover;
-    background-position: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .imgSNL {
-    border: $bg-color3 solid 5px;
-    border-radius: 40px;
-    padding: 3%;
+    @include fondo-y-borde;
     background-image: url(../img/Cafe-tiendaBlur.jpg);
-    background-size: cover;
-    background-position: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .textosContacto {
