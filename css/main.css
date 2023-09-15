@@ -21,12 +21,6 @@ body .row {
   margin-left: 15%;
   margin-right: 15%;
 }
-@media (max-width: 768px) {
-  .contenedor {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-}
 
 .botonProd {
   color: #ffffff;
@@ -94,49 +88,11 @@ body .row {
 .map-right {
   margin-left: 30%;
 }
-@media (max-width: 768px) {
-  .map-right {
-    width: 150px;
-    height: 120px;
-    margin-right: 3%;
-  }
-}
-@media (min-width: 769px) {
-  .map-right {
-    width: 250px;
-    height: 230px;
-  }
-}
-@media (min-width: 1000px) {
-  .map-right {
-    width: 450px;
-    height: 350px;
-  }
-}
 
 .map-left {
   margin-right: 15%;
   margin-top: 2%;
   margin-bottom: 2%;
-}
-@media (max-width: 768px) {
-  .map-left {
-    width: 150px;
-    height: 120px;
-    margin-left: 3%;
-  }
-}
-@media (min-width: 769px) {
-  .map-left {
-    width: 250px;
-    height: 230px;
-  }
-}
-@media (min-width: 1000px) {
-  .map-left {
-    width: 450px;
-    height: 350px;
-  }
 }
 
 .bg-maps {
@@ -150,16 +106,6 @@ body .row {
   background-color: rgb(255, 242, 225);
   text-align: justify;
 }
-@media (max-width: 768px) {
-  .navbar .logoNav {
-    width: 11vw;
-  }
-}
-@media (min-width: 768px) {
-  .navbar .logoNav {
-    width: 90px;
-  }
-}
 
 .Textos {
   background-color: rgb(255, 228, 196);
@@ -170,11 +116,6 @@ body .row {
   margin-left: 5%;
   padding: 0%;
   font-size: 7dvh;
-}
-@media (max-width: 768px) {
-  .h2Main {
-    font-size: 30px;
-  }
 }
 
 .pMain {
@@ -193,22 +134,12 @@ body .row {
   margin-left: 5%;
   margin-bottom: 7%;
   color: rgb(0, 0, 0);
-  background-color: transparent;
+  background: linear-gradient(to bottom, #d3d3d3, #777777, #1f1f1f);
   cursor: pointer;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-@media (max-width: 768px) {
-  .botonMain {
-    font-size: 15px;
-  }
-}
-@media (min-width: 768px) {
-  .botonMain {
-    font-size: 22px;
-  }
 }
 .botonMain:hover {
   background-color: rgb(106, 186, 255);
@@ -225,11 +156,6 @@ body .row {
   padding: 0%;
   font-size: 7dvh;
 }
-@media (max-width: 768px) {
-  .h2DivQuienes {
-    font-size: 30px;
-  }
-}
 
 .pDiv {
   margin-bottom: 2%;
@@ -238,22 +164,12 @@ body .row {
   padding-bottom: 1%;
   font-size: 3dvh;
 }
-@media (max-width: 768px) {
-  .pDiv {
-    font-size: 18px;
-  }
-}
 
 .pQuienesSomos {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 3%;
   padding: 3%;
-}
-@media (max-width: 768px) {
-  .pQuienesSomos {
-    font-size: 15px;
-  }
 }
 
 .fondoTextos {
@@ -266,21 +182,11 @@ body .row {
   padding: 5%;
   color: rgb(207, 0, 0);
 }
-@media (max-width: 768px) {
-  .textContL {
-    font-size: 15px;
-  }
-}
 
 .textContD {
   font-size: 125%;
   padding: 5%;
   color: rgb(207, 0, 0);
-}
-@media (max-width: 768px) {
-  .textContD {
-    font-size: 15px;
-  }
 }
 
 .imgSNLL {
@@ -323,49 +229,9 @@ body .row {
 .textUbiL {
   font-size: 23px;
 }
-@media (max-width: 550px) {
-  .textUbiL {
-    font-size: 11px;
-  }
-}
-@media (min-width: 768px) {
-  .textUbiL {
-    font-size: 10px;
-  }
-}
-@media (min-width: 769px) {
-  .textUbiL {
-    font-size: 20px;
-  }
-}
-@media (min-width: 1000px) {
-  .textUbiL {
-    font-size: 26px;
-  }
-}
 
 .textUbiD {
   font-size: 23px;
-}
-@media (max-width: 550px) {
-  .textUbiD {
-    font-size: 11px;
-  }
-}
-@media (min-width: 768px) {
-  .textUbiD {
-    font-size: 10px;
-  }
-}
-@media (min-width: 769px) {
-  .textUbiD {
-    font-size: 20px;
-  }
-}
-@media (min-width: 1000px) {
-  .textUbiD {
-    font-size: 26px;
-  }
 }
 
 footer {
@@ -417,4 +283,302 @@ footer .divFooter {
   .prod-Prod p {
     font-size: 25px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+.body404 {
+  background-image: url(../img/Fondo404.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg-div {
+  margin-top: 10%;
+}
+
+.error-container {
+  padding-left: 0%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.error-container h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 55px;
+}
+
+.bg-div a {
+  text-decoration: none;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-size: 1.5em;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.bg-div a:hover {
+  background-color: #383838;
+}
+
+.navbar404 {
+  background-color: transparent;
+}
+
+.btn-98,
+.btn-98 *,
+.btn-98 :after,
+.btn-98 :before,
+.btn-98:after,
+.btn-98:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-98 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.btn-98:disabled {
+  cursor: default;
+}
+
+.btn-98:-moz-focusring {
+  outline: auto;
+}
+
+.btn-98 svg {
+  display: block;
+}
+
+.btn-98 [hidden] {
+  display: none;
+}
+
+.btn-98 {
+  --thickness: 4px;
+  background: none;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% calc(100% + var(--thickness)), 0 calc(100% + var(--thickness)));
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% + var(--thickness)), 0 calc(100% + var(--thickness)));
+  display: block;
+  font-weight: 900;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn-98:before {
+  background: #fff;
+  bottom: calc(var(--thickness) * -1);
+  content: "";
+  display: block;
+  height: var(--thickness);
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+
+.btn-98:hover:before {
+  -webkit-animation: slide 0.5s ease;
+  animation: slide 0.5s ease;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  51% {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  51% {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@media (max-width: 768px) {
+  .contenedor {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+@media (max-width: 768px) {
+  .map-right {
+    width: 150px;
+    height: 120px;
+    margin-right: 3%;
+  }
+}
+@media (min-width: 769px) {
+  .map-right {
+    width: 250px;
+    height: 230px;
+  }
+}
+@media (min-width: 1000px) {
+  .map-right {
+    width: 450px;
+    height: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .map-left {
+    width: 150px;
+    height: 120px;
+    margin-left: 3%;
+  }
+}
+@media (min-width: 769px) {
+  .map-left {
+    width: 250px;
+    height: 230px;
+  }
+}
+@media (min-width: 1000px) {
+  .map-left {
+    width: 450px;
+    height: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .logoNav {
+    width: 11vw;
+  }
+}
+@media (min-width: 768px) {
+  .logoNav {
+    width: 90px;
+  }
+}
+@media (max-width: 768px) {
+  .h2Main {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .pMain {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .botonMain {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .botonMain {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  .h2DivQuienes {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .pDiv {
+    font-size: 18px;
+  }
+}
+@media (max-width: 768px) {
+  .pQuienesSomos {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .textContL {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .textContD {
+    font-size: 15px;
+  }
+}
+@media (max-width: 550px) {
+  .textUbiD {
+    font-size: 11px;
+  }
+}
+@media (min-width: 768px) {
+  .textUbiD {
+    font-size: 14px;
+  }
+}
+@media (min-width: 769px) {
+  .textUbiD {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .textUbiD {
+    font-size: 26px;
+  }
+}
+@media (max-width: 550px) {
+  .textUbiL {
+    font-size: 11px;
+  }
+}
+@media (min-width: 768px) {
+  .textUbiL {
+    font-size: 14px;
+  }
+}
+@media (min-width: 769px) {
+  .textUbiL {
+    font-size: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .textUbiL {
+    font-size: 26px;
+  }
+}
+@media (max-width: 768px) {
+  .body404 {
+    background-image: url(../img/gato-768px.jpg);
+  }
+  .error-container h2 {
+    font-size: 18px;
+    color: red;
+  }
+}
+@media (max-width: 768px) {
+  .bg-div a {
+    font-size: 0.8em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

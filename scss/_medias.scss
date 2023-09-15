@@ -1,0 +1,171 @@
+@media (max-width: 768px) {
+    .contenedor {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+//mapa derecho
+@media (max-width: 768px) {
+    .map-right {
+        width: 150px;
+        height: 120px;
+        margin-right: 3%;
+    }
+}
+@media (min-width: 769px) {
+    .map-right {
+        width: 250px;
+        height: 230px;
+    }
+}
+@media (min-width: 1000px) {
+    .map-right {
+        width: 450px;
+        height: 350px;
+    }
+}
+//mapa izquierdo
+@media (max-width: 768px) {
+    .map-left {
+        width: 150px;
+        height: 120px;
+        margin-left: 3%;
+    }
+}
+@media (min-width: 769px) {
+    .map-left {
+        width: 250px;
+        height: 230px;
+    }
+}
+@media (min-width: 1000px) {
+    .map-left {
+        width: 450px;
+        height: 350px;
+    }
+}
+//navbar
+@media (max-width: 768px) {
+    .logoNav {
+        width: 11vw;
+    }
+}
+@media (min-width: 768px) {
+    .logoNav {
+        width: 90px;
+    }
+}
+//h2main
+@media (max-width: 768px) {
+    .h2Main {
+        font-size: 30px;
+    }
+}
+//pmain
+@media (max-width: 768px) {
+    .pMain {
+        font-size: 18px;
+    }
+}
+//boton main
+@media (max-width: 768px) {
+    .botonMain {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .botonMain {
+        font-size: 22px;
+    }
+}
+//h2 del div de quienes somos
+@media (max-width: 768px) {
+    .h2DivQuienes {
+        font-size: 30px;
+    }
+}
+//pDiv
+@media (max-width: 768px) {
+    .pDiv {
+        font-size: 18px;
+    }
+}
+//pquienesSomos
+@media (max-width: 768px) {
+    .pQuienesSomos {
+        font-size: 15px;
+    }
+}
+//textcontL
+@media (max-width: 768px) {
+    .textContL {
+        font-size: 15px;
+    }
+}
+//textContd
+@media (max-width: 768px) {
+    .textContD {
+        font-size: 15px;
+    }
+}
+//textubiD
+@media (max-width: 550px) {
+    .textUbiD {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) {
+    .textUbiD {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    .textUbiD {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .textUbiD {
+        font-size: 26px;
+    }
+}
+//texto de mapa iz
+@media (max-width: 550px) {
+    .textUbiL {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) {
+    .textUbiL {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    .textUbiL {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .textUbiL {
+        font-size: 26px;
+    }
+}
+@media (max-width: 768px) {
+    .body404 {
+        background-image: url(../img/gato-768px.jpg);
+    }
+    .error-container h2 {
+        font-size: 18px;
+        color: red;
+    }
+}
+@media (max-width: 768px) {
+    .bg-div a {
+        font-size: 0.8em;
+    }
+}

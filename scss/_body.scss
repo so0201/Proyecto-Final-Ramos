@@ -30,11 +30,6 @@ body {
     margin-bottom: 2%;
     margin-left: 15%;
     margin-right: 15%;
-
-    @media (max-width: 768px) {
-        margin-left: 3%;
-        margin-right: 3%;
-    }
 }
 
 .botonProd {
@@ -108,44 +103,12 @@ body {
 
 .map-right {
     margin-left: 30%;
-
-    @media (max-width: 768px){
-        width: 150px;
-        height: 120px;
-        margin-right: 3%;
-    }
-
-    @media (min-width: 769px){
-        width: 250px;
-        height: 230px;
-    }
-
-    @media (min-width: 1000px){
-        width: 450px;
-        height: 350px;
-    }
 }
 
 .map-left {
     margin-right: 15%;
     margin-top: 2%;
     margin-bottom: 2%;
-
-    @media (max-width: 768px){
-        width: 150px;
-        height: 120px;
-        margin-left: 3%;
-    }
-
-    @media (min-width: 769px){
-        width: 250px;
-        height: 230px;
-    }
-
-    @media (min-width: 1000px){
-        width: 450px;
-        height: 350px;
-    }
 }
 
 .bg-maps {
@@ -158,18 +121,6 @@ body {
 .navbar {
     background-color: $mainColor;
     text-align: justify;
-
-    @media (max-width: 768px) {
-        .logoNav {
-            width: 11vw;
-        }
-    }
-
-    @media (min-width: 768px) {
-        .logoNav {
-            width: 90px;
-        }
-    }
 }
 
 .Textos {
@@ -181,10 +132,6 @@ body {
     margin-left: 5%;
     padding: 0%;
     font-size: 7dvh;
-
-    @media (max-width: 768px) {
-        font-size: 30px;
-    }
 }
 
 .pMain {
@@ -202,21 +149,12 @@ body {
     margin-left: 5%;
     margin-bottom: 7%;
     color: rgb(0, 0, 0);
-    background-color: transparent;
+    background: linear-gradient(to bottom, #d3d3d3, #777777, #1f1f1f);
     cursor: pointer;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
-    @media (max-width: 768px) {
-        font-size: 15px;
-    }
-
-    @media (min-width: 768px) {
-        font-size: 22px;
-    }
-
     &:hover {
         background-color: $bg-color-buttom;
         border-color: $bg-color3;
@@ -232,10 +170,6 @@ body {
     margin-left: 5%;
     padding: 0%;
     font-size: 7dvh;
-
-    @media (max-width: 768px) {
-        font-size: 30px;
-    }
 }
 
 .pDiv {
@@ -244,10 +178,6 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 3dvh;
-
-    @media (max-width: 768px) {
-        font-size: 18px;
-    }
 }
 
 .pQuienesSomos {
@@ -255,10 +185,6 @@ body {
     margin-right: 5%;
     margin-bottom: 3%;
     padding: 3%;
-
-    @media (max-width: 768px) {
-        font-size: 15px;
-    }
 }
 
 .fondoTextos {
@@ -270,20 +196,12 @@ body {
     font-size: 125%;
     padding: 5%;
     color: $text-rojo;
-
-    @media (max-width: 768px) {
-        font-size: 15px;
-    }
 }
 
 .textContD {
     font-size: 125%;
     padding: 5%;
     color: $text-rojo;
-
-    @media (max-width: 768px) {
-        font-size: 15px;
-    }
 }
 
 .imgSNLL {
@@ -307,42 +225,10 @@ body {
 
 .textUbiL {
     font-size: 23px;
-
-    @media (max-width: 550px) {
-        font-size: 11px;
-    }
-
-    @media (min-width: 768px) {
-        font-size: 10px;
-    }
-
-    @media (min-width: 769px) {
-        font-size: 20px;
-    }
-
-    @media (min-width: 1000px) {
-        font-size: 26px;
-    }
 }
 
 .textUbiD {
     font-size: 23px;
-
-    @media (max-width: 550px) {
-        font-size: 11px;
-    }
-
-    @media (min-width: 768px) {
-        font-size: 10px;
-    }
-
-    @media (min-width: 769px) {
-        font-size: 20px;
-    }
-
-    @media (min-width: 1000px) {
-        font-size: 26px;
-    }
 }
 
 footer {
@@ -397,4 +283,143 @@ footer {
             font-size: 25px;
         }
     }
+}
+//404 html
+.body404 {
+    background-image: url(../img/Fondo404.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-div {
+    margin-top: 10%;
+}
+.error-container {
+    padding-left: 0%;
+    border-radius: 10px;
+    text-align: center;
+}
+.error-container h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 55px;
+}
+.bg-div a {
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 1.5em;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.bg-div a:hover {
+    background-color: #383838;
+}
+.navbar404 {
+    background-color: transparent;
+}
+.btn-98,
+.btn-98 *,
+.btn-98 :after,
+.btn-98 :before,
+.btn-98:after,
+.btn-98:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-98 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  line-height: 1.5;
+}
+.btn-98:disabled {
+  cursor: default;
+}
+.btn-98:-moz-focusring {
+  outline: auto;
+}
+.btn-98 svg {
+  display: block;
+}
+.btn-98 [hidden] {
+  display: none;
+}
+.btn-98 {
+  --thickness: 4px;
+  background: none;
+  box-sizing: border-box;
+  -webkit-clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% + var(--thickness)),
+    0 calc(100% + var(--thickness))
+  );
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% + var(--thickness)),
+    0 calc(100% + var(--thickness))
+  );
+  display: block;
+  font-weight: 900;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn-98:before {
+  background: #fff;
+  bottom: calc(var(--thickness) * -1);
+  content: "";
+  display: block;
+  height: var(--thickness);
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+}
+.btn-98:hover:before {
+  -webkit-animation: slide 0.5s ease;
+  animation: slide 0.5s ease;
+}
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  51% {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  51% {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
