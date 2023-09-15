@@ -395,23 +395,7 @@ footer .divFooter {
 }
 
 .btn-98:hover:before {
-  -webkit-animation: slide 0.5s ease;
   animation: slide 0.5s ease;
-}
-
-@-webkit-keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(100%);
-  }
-  51% {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
 }
 @keyframes slide {
   0% {
@@ -579,6 +563,4 @@ footer .divFooter {
   .bg-div a {
     font-size: 0.8em;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
