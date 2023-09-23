@@ -36,6 +36,7 @@ body {
     color: $optionalColor;
     background-color: $bg-color3;
     border: #333;
+    cursor: pointer;
 }
 
 .divContacto {
@@ -226,9 +227,53 @@ body {
 .textUbiL {
     font-size: 23px;
 }
+@media (max-width: 550px) {
+    .textUbiL {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) {
+    .textUbiL {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    .textUbiL {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .textUbiL {
+        font-size: 26px;
+    }
+}
 
 .textUbiD {
     font-size: 23px;
+}
+@media (max-width: 550px) {
+    .textUbiD {
+        font-size: 11px;
+    }
+}
+@media (min-width: 768px) {
+    .textUbiD {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+    .textUbiD {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .textUbiD {
+        font-size: 26px;
+    }
 }
 
 footer {
@@ -300,4 +345,16 @@ footer {
 }
 .navbar404 {
     background-color: transparent;
+}
+@media (max-width: 768px) {
+    .body404 {
+        background-image: url(../img/gato-768px.jpg);
+    }
+    .error-container h2 {
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+    }
+    .error-container .btn-98 {
+        font-size: 16px;
+    }
 }

@@ -7,8 +7,8 @@
 //mapa derecho
 @media (max-width: 768px) {
     .map-right {
-        width: 150px;
-        height: 120px;
+        width: 120px;
+        height: 100px;
         margin-right: 3%;
     }
 }
@@ -27,8 +27,8 @@
 //mapa izquierdo
 @media (max-width: 768px) {
     .map-left {
-        width: 150px;
-        height: 120px;
+        width: 120px;
+        height: 100px;
         margin-left: 3%;
     }
 }
@@ -107,64 +107,6 @@
 @media (max-width: 768px) {
     .textContD {
         font-size: 15px;
-    }
-}
-//textubiD
-@media (max-width: 550px) {
-    .textUbiD {
-        font-size: 11px;
-    }
-}
-@media (min-width: 768px) {
-    .textUbiD {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 769px) {
-    .textUbiD {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 1000px) {
-    .textUbiD {
-        font-size: 26px;
-    }
-}
-//texto de mapa iz
-@media (max-width: 550px) {
-    .textUbiL {
-        font-size: 11px;
-    }
-}
-@media (min-width: 768px) {
-    .textUbiL {
-        font-size: 14px;
-    }
-}
-
-@media (min-width: 769px) {
-    .textUbiL {
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 1000px) {
-    .textUbiL {
-        font-size: 26px;
-    }
-}
-@media (max-width: 768px) {
-    .body404 {
-        background-image: url(../img/gato-768px.jpg);
-    }
-    .error-container h2 {
-        font-size: 18px;
-        color: red;
-    }
-    .error-container .btn-98 {
-        font-size: 16px;
     }
 }
 @media (max-width: 768px) {
