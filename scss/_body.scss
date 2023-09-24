@@ -194,17 +194,45 @@ body {
 }
 
 .textContL {
-    font-size: 125%;
+    font-size: 30px;
     padding: 5%;
-    color: $text-rojo;
+    color: rgb(255, 255, 255);
 }
-
+@media (max-width: 550px) {
+    .textContL {
+        font-size: 10px;
+    }
+}
+@media (min-width: 551px) {
+    .textContL {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1000px) {
+    .textContL {
+        font-size: 30px;
+    }
+}
 .textContD {
-    font-size: 125%;
+    font-size: 30px;
     padding: 5%;
-    color: $text-rojo;
+    color: rgb(255, 255, 255);
 }
-
+@media (max-width: 550px) {
+    .textContD {
+        font-size: 10px;
+    }
+}
+@media (min-width: 551px) {
+    .textContD {
+        font-size: 15px;
+    }
+}
+@media (min-width: 1000px) {
+    .textContD {
+        font-size: 30px;
+    }
+}
 .imgSNLL {
     @include fondo-y-borde;
     background-image: url(../img/cafeteria-blur.jpg);
